@@ -1,0 +1,14 @@
+
+
+
+a = int(input())
+cont=a
+soma=a
+if a==0:
+    print(1)
+else:
+    for i in range(a-2):
+        cont -= 1
+        b = soma * cont
+        soma = b
+    print (soma)
